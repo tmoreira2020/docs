@@ -30,7 +30,7 @@ integrations:
     - integrationName: my_custom_key
       type: sshKey
 ```
-Your SSH key will be available on your build container in the `/tmp/ssh/` directory.
+Your SSH key will be available on your build container in the `/tmp/ssh/` directory. Be aware that the name of the file will not contain dashes or underscores.
 <img src="/images/ci/view-keys.png" alt="SSH Keys list">
 
 You can use this key in the similarly as you use subsbscription key or project key.
